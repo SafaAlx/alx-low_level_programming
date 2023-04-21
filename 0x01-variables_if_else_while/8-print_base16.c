@@ -10,18 +10,14 @@
 
 int main(void)
 {
-	int digit = 48; /*48; decimal rep of 0*/
+	int d;
+	char low;
 
-	while (digit <= 120) /*102; decimal rep of f*/
-	{
-		putchar(digit);
-
-		/* after 9 we jump till 96; */
-		if (digit == 57)
-			digit += 39;
-		digit++;
-	}
+	for (d = '0'; d <= '9'; d++)
+		putchar(d);
+	for (low = 'a'; low <= 'f'; low++)
+		putchar(low);
 	putchar('\n');
 
-	return (0);
+		return (0);
 }
