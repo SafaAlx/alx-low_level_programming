@@ -1,29 +1,25 @@
-#include "main.h"
 #include <stdio.h>
 
 /**
- * main - Entry point
- *
- * Descrition: computes the sum of all
- *             the multiples of 3 or 5
- *             below 1024 (excluded)
- *
- * Return: Always 0 (Success)
+ * main - Prints the sum of Even Fibonacci numbers
+ * less than 4000000.
+ * Return: Nothing!
 */
+
 int main(void)
 {
-	int sum, num;
+	int i = 0;
+	long j = 1, k = 2, sum = k
 
-	for (num = 0; num < 1024; num++)
+	while (k + j < 4000000)
 	{
-		if ((num % 3 == 0) || (num % 5 == 0))
-			sum += num;
+	k += j;
+	if (k % 2 == 0)
+	sum += k;
+	j = k - j;
+	++i;
 	}
-	printf("%d\n", sum);
+	printf("%ld\n", sum);
 
 	return (0);
 }
-
-
-
-
