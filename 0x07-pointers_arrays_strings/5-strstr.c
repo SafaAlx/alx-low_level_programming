@@ -7,7 +7,7 @@
  *
  * Return: if the substring is not located - a ponter to the beginning
  *                                           of the located substring.
- * if the substring is not located - NULL.
+ * If the substring is not located - NULL.
 */
 
 char *_strstr(char *haystack, char *needle)
