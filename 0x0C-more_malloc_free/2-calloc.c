@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * *_calloc - ...
+ * _calloc - ...
  * @nmemb: number of members
  * @size: size
  *
- * Retun: ...
+ * Return: ...
  */
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
