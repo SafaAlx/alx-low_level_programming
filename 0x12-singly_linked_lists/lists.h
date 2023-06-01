@@ -11,7 +11,7 @@
  * @len: lenth of the string
  * @next: points to the next node
  *
- * Description: project
+ * Description: singly linked list node structure
  */
 typedef struct list_s
 {
