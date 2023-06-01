@@ -5,10 +5,10 @@ void _constructor(void) __attribute__ ((constructor));
 /**
  * _constructor - executes before main()
  *
- * Return:void
+ * Return: void
  */
 void _constructor(void)
 {
-	printf("you're breat! and yet, you must allow,\n"
+	printf("You're beat! and yet, you must allow,\n"
 			"I bore my house upon my back!\n");
 }
