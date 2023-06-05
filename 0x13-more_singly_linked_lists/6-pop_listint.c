@@ -4,7 +4,7 @@
  * pop_listint - pops head node of list
  * @head: address of pointer to first node
  *
- * Retuen: value of popped  node
+ * Return: value of popped  node
  */
 int pop_listint(listint_t **head)
 {
