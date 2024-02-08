@@ -1,4 +1,6 @@
-uth: Brennan D Baraban
+/*
+ * File: 106-linear_skip.c
+ * Auth: Brennan D Baraban
  */
 
 #include "search_algos.h"
